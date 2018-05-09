@@ -1,4 +1,4 @@
-{% set version = "0.1.2" %}
+{% set version = "0.1.3a1" %}
 
 package:
   name: ipywe
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/scikit-beam/ipywe/archive/{{ version }}.tar.gz
-  sha256: 9a2dd4afd116549c464fbff647d91b73cbbff65e848ec0112d4248101b58c163
+  sha256: 507300c458c1db3bf42e8168530105d4a96d0bbdaa910ebf9d5bf3b4df65c414
 
 build:
   number: 0
