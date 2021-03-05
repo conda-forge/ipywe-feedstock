@@ -9,15 +9,16 @@ source:
   sha256: 507300c458c1db3bf42e8168530105d4a96d0bbdaa910ebf9d5bf3b4df65c414
 
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: True  # [win]
 
 requirements:
   build:
+    - nodejs >=12
+  host:
     - python
     - pip
-    - nodejs
   run:
     - python
     - ipywidgets >=6.0.0
