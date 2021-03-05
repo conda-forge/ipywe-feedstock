@@ -14,10 +14,11 @@ build:
   skip: True  # [win]
 
 requirements:
+  build:
+    - nodejs >=12
   host:
     - python
     - pip
-    - nodejs
   run:
     - python
     - ipywidgets >=6.0.0
