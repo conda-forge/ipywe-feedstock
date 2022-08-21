@@ -21,7 +21,7 @@ requirements:
   run:
     - python
     - jupyter
-    - ipywidgets >=6.0.0
+    - ipywidgets >=6.0.0,<8
     - traitlets >=4.3.0
     - pillow
     - numpy
