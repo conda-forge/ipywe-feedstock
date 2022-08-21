@@ -9,7 +9,7 @@ source:
   sha256: 507300c458c1db3bf42e8168530105d4a96d0bbdaa910ebf9d5bf3b4df65c414
 
 build:
-  number: 3
+  number: 4
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: True  # [win]
 
@@ -21,6 +21,7 @@ requirements:
     - pip
   run:
     - python
+    - jupyter
     - ipywidgets >=6.0.0
     - traitlets >=4.3.0
     - pillow
