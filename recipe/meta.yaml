@@ -8,7 +8,7 @@ source:
   url: https://github.com/scikit-beam/ipywe/archive/{{ version }}.tar.gz
   sha256: 76985677fded5b9e2309a1a3d132254f079de042a0bebb6b80bc0900d7984f3a
 build:
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: True  # [win]
 
